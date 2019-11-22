@@ -1,0 +1,32 @@
+{
+  "name": "@stormid/storybook-html-addon-markup",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist"
+  },
+  "author": "stormid",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "keywords": [
+    "stormid",
+    "react",
+    "storybook",
+    "addon",
+    "jsx",
+    "html"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "@storybook/addons": "^5.2.6",
+    "@storybook/components": "^5.2.6",
+    "@storybook/api": "^5.2.6",
+    "@storybook/core-events": "^5.2.6"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}
